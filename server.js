@@ -1,3 +1,5 @@
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
@@ -18,7 +20,7 @@ app.listen(port, function() {
     console.log('Listening on port ' + port);
 });
 
-mongoose.connect(keys.mongoUri);
+mongoose.connect(config.mongoUri);
 mongoose.connection.once('open', function() {
-    console.log('Connected to MongoDB at ' + keys.mongoUri);
+    console.log('Connected to MongoDB at ' + config.mongoUri);
 });
