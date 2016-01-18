@@ -9,15 +9,25 @@ html, body {
     height: 100%;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    /*background: url('/assets/foodtrucks1-compressor.jpg') no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
 .main-wrapper {
-    border: 1px solid red;
-    width: 75%;
-    height: 80%;
+    /*border: 1px solid red;*/
+    width: 65%;
+    height: 85%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,7 +36,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .left-col {
     height: 100%;
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     width: 400px;
     position: relative;
     display: inline-block;
@@ -43,32 +53,98 @@ h1,h2,h3,h4,h5,h6 {
     
 .right-col {
     width: calc(100% - 400px);
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     display: inline-block;
     height: 100%;
     float: right;
 }
 
-.content-row {
+/*.content-row {
     width: 100%;
     height: 49%;
     border: 1px solid green;
     vertical-align: bottom;
     text-align: center;
+}*/
+
+.sml-row {
+    width: 100%;
+    /*border: 1px solid red;*/
+    text-align: center;
+    margin-bottom: 14px;
 }
 
-.box {
-    width: 24%;
+.top-title {
+    margin: 0 auto;
+    width: 400px;
     height: 100%;
-    border: 1px solid orange;
-    display: inline-block;
-    position: relative;
 }
 
-    .box img {
-        height: 90%;
+    .top-title img{
+        width: 200px;
+        display: inline-block;
+    }
+    
+.button-container {
+    /*border: 1px solid dodgerblue;*/
+    width: 150px;
+    float: right;
+    margin-top: 55px;
+}
+
+    .button-container img {
+        width: 100px;
+    }
+
+    .sml-row h2 {
+        font-weight: 400;
+        font-size: 40px;
+        letter-spacing: 1px;
+        color: #444;
+        line-height: 44px;
+        /*color: #FFF;*/
+    }
+    
+.side-img-container {
+    height: 200px;
+    width: 165px;
+    /*border: 1px solid green;*/
+    position: relative;
+    display: inline-block;
+
+}   
+
+    .side-img-container img {
+        width: 90px;
+        /*height: 90%;*/
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    } 
+    
+.text-box {
+    width: calc(100% - 165px);
+    height: 100%;
+    /*border: 1px solid rebeccapurple;*/
+    float: right;
+}
+
+    .text-box h3 {
+        font-weight: 100;
+        font-size: 20px;
+        color: #333;
+        letter-spacing: 0.5px;
+        padding-top: 16px;
     }
+    
+    .text-box h4 {
+        font-weight: 100;
+        font-size: 16px;
+        color: #333;
+        letter-spacing: 0.5px;
+        text-align: left;
+        padding: 10px 0 0 5px;
+    }
+    
+    
