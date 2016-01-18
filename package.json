@@ -1,0 +1,26 @@
+{
+  "name": "food-truck-finder-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakehagen/food-truck-finder-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakehagen/food-truck-finder-landing-page/issues"
+  },
+  "homepage": "https://github.com/blakehagen/food-truck-finder-landing-page#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.6"
+  }
+}
