@@ -1,7 +1,7 @@
 angular.module('ftfLandingPage').controller('homeCtrl', function () {
 
-    var home = this;
+    // var home = this;
 
-    home.test = 'hello world'
+    // home.test = 'hello world'
 
 });
