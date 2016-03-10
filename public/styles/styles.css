@@ -139,6 +139,20 @@ h1,h2,h3,h4,h5,h6 {
 .tb-bottom {
     display: none;
 }
+
+.edit-link {
+    text-decoration: none;
+}
+
+.edit-link:visited {
+    color: #000;
+}
+
+.edit-link:hover {
+    color: #1294f6;
+}
+
+
     
     
 /* MEDIA QUERIES */
